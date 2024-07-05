@@ -14,7 +14,7 @@ Feature: Test Automation Rest API
     And hit api post create new users
     Then validation status code is equals 201
     Then validation response body post create new user
-    Then validation response json with JSONSchema "post_create_user_normal.json"
+    Then validation response json with JSONSchema "post_create_new_user_normal.json"
 
   @api
   Scenario: Test delete user normal
