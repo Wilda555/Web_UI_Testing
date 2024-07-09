@@ -40,6 +40,6 @@ Tools yang digunakan yaitu:
 
 ## Push to github
 
-1. **Clone repositori**:
+1. **Repositori**:
    `git clone https://github.com/Wilda555/Web_UI_Testing_19.git`
    
