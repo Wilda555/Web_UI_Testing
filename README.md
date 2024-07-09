@@ -35,6 +35,7 @@ yang memverifikasi aplikasi sehingga dapat berjalan sesuai dengan yang diharapka
 
 Tools yang digunakan yaitu:
 - Java JDK new version 
+- IntelIJ Idea
 - Gradle
 - Browser yang didukung Selenium 
 
@@ -42,4 +43,3 @@ Tools yang digunakan yaitu:
 
 1. **Repositori**:
    `git clone https://github.com/Wilda555/Web_UI_Testing_19.git`
-   
