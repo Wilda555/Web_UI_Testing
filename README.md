@@ -9,27 +9,19 @@ yang memverifikasi aplikasi sehingga dapat berjalan sesuai dengan yang diharapka
 
 ## Fitur Utama
 
-- Modularitas
-- Keterbacaan
-- Otomatisasi
-- Manajemen Dependensi
-- Pelaporan
+- Modularitas : Untuk memisahkan proyek sehingga terbentuk beberapa modul
+- Keterbacaan : Menggunakan sintaks Gherkin untuk mendefinisikan kasus uji dalam bahasa alami yang mudah dimengerti.
+- Otomatisasi : Menggunakan Selenium untuk meng-otomatiskan interaksi dengan browser web.
+- Manajemen Dependensi : Menggunakan Gradle untuk mengelola tugas build serta tes.
+- Pelaporan : Mendukung pelaporan hasil tes secara otomatis.
 
 ## Struktur Proyek
 
-- `src/test/java/features/api.feature`
-- `src/test/java/features/web.feature`
-- `src/test/java/helper/JSONSchemaData/get_list_users_normal.json`
-- `src/test/java/helper/JSONSchemaData/post_create_new_user_normal.json`
-- `src/test/java/helper/JSONSchemaData/Endpoint`
-- `src/test/java/helper/JSONSchemaData/Models`
-- `src/test/java/helper/JSONSchemaData/Utility`
-- `src/test/java/page/ApiPage`
-- `src/test/java/page/WebPage`
-- `src/test/java/runners/testRunnerApi`
-- `src/test/java/stepdefenitions/ApiStep`
-- `src/test/java/stepdefenitions/Hooks`
-- `src/test/java/stepdefenitions/WebStep`
+- `src/test/java/features` : Untuk file-file pada fitur gherkin
+- `src/test/java/helper/JSONSchemaData` : Berisi file bantuan untuk Json
+- `src/test/java/page` : file kelas pada page
+- `src/test/java/runners`: Kelas runner untuk mejalankan tes
+- `src/test/java/stepdefenitions`: Berisi untuk langkah-langkah pada cucumber
 
 ## Tools yang diperlukan
 
@@ -43,3 +35,4 @@ Tools yang digunakan yaitu:
 
 1. **Repositori**:
    `git clone https://github.com/Wilda555/Web_UI_Testing_19.git`
+   
